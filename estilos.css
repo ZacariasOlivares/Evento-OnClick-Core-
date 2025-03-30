@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Verdana;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    width: 80%;
+    background-color: rgb(201, 202, 202);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-logo {
+    flex: 1;
+}
+
+.contenedor-buscador {
+    flex: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-btn {
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.buscador {
+    width: 80%;
+    height: 20px;
+}
+
+.contendor-principal{
+    display: flex;
+    width: 83%;
+    margin-top: 15px;
+    gap: 2%;
+}
+
+.contenedor-definicion {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.definicion{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+.btn-like, .btn-sesion, .btn-agregar {
+    width: 120px;
+    background-color: rgb(252, 252, 156);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-sesion {
+    background-color: rgb(0, 126, 243);
+    color: white;
+    border-radius: 0px;
+    width: 150px;
+}
+
+.btn-agregar {
+    background-color: green;
+    color: white;
+    border-radius: 0px;
+    width: 200px;
+}
+
+.btn-like{
+    box-shadow: 0 0 10px 2px #bbbbbb;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+.titulo {
+    font-size: 22px;
+}
+
+p {
+    font-size: 14px;
+}
